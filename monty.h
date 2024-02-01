@@ -57,7 +57,7 @@ extern bus_t bus;
 void add_node(stack_t **head, int n);
 void func_add(stack_t **head, unsigned int counter);
 void func_sub(stack_t **head, unsigned int counter);
-void func_mul(stack_t **head, unsigned int counter)t;
+void func_mul(stack_t **head, unsigned int counter);
 
 
 
