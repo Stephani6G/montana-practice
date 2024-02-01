@@ -16,7 +16,7 @@ void func_sub(stack_t **head, unsigned int counter)
 	if (nd < 2)
 	{
 		fprintf(stderr, "L%d: can't sub, stack too short\n", counter);
-		fclose(bus.file);
+		fclose(bus.filem);
 		free(bus.content);
 		frees_stack(*head);
 		exit(EXIT_FAILURE);
@@ -47,7 +47,7 @@ void func_mul(stack_t **head, unsigned int counter)
 	if (length < 2)
 	{
 		fprintf(stderr, "L%d: can't mul, stack too short\n", counter);
-		fclose(bus.file);
+		fclose(bus.filem);
 		free(bus.content);
 		frees_stack(*head);
 		exit(EXIT_FAILURE);
