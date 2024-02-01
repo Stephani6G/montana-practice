@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 	file = fopen(argv[1], "r");
-	bus.file = file;
+	bus.filem = file;
 	if (!file)
 	{
 		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
@@ -47,11 +47,11 @@ int main(int argc, char *argv[])
 		counter++;
 		if (read_line > 0)
 		{
-			execute(content, &stack, counter, file);
+			execl(content, &stack, counter, file);
 		}
 		free(content);
 	}
-	free_stack(stack);
+	frees_stack(stack);
 	fclose(file);
 return (0);
 }
