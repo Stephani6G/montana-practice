@@ -71,6 +71,7 @@ void func_pop(stack_t **head, unsigned int counter);
 void func_pint(stack_t **head, unsigned int counter);
 void func_nop(stack_t **head, unsigned int counter);
 void f_pchar(stack_t **head, unsigned int counter);
+void func_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 
 
 
