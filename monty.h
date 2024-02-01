@@ -35,6 +35,24 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
+/**
+* struct bus - variables -args, file, line content
+* @arg: value
+* @filem: pointer to monty file
+* @content: line content
+*
+* @lifi: flag change stack <-> queue
+*
+* Description: carries values through the program
+*/
+typedef struct bus
+{
+	char *arg;
+	FILE *filem;
+	char *content;
+	int lifi;
+}  bus_t;
+extern bus_t bus;
 
 void add_node(stack_t **head, int n);
 
