@@ -61,6 +61,7 @@ void func_mul(stack_t **head, unsigned int counter);
 void func_div(stack_t **head, unsigned int counter);
 void func_mod(stack_t **head, unsigned int counter);
 void frees_stack(stack_t *head);
+void func_push(stack_t **head, unsigned int counter);
 void fu_stack(stack_t **head, unsigned int counter);
 
 
