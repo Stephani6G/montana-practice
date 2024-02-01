@@ -55,6 +55,8 @@ typedef struct bus
 extern bus_t bus;
 
 void add_node(stack_t **head, int n);
+void func_add(stack_t **head, unsigned int counter);
+
 
 
 #endif /* monty_h */
