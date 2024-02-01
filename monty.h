@@ -58,6 +58,8 @@ void add_node(stack_t **head, int n);
 void func_add(stack_t **head, unsigned int counter);
 void func_sub(stack_t **head, unsigned int counter);
 void func_mul(stack_t **head, unsigned int counter);
+void func_div(stack_t **head, unsigned int counter);
+void func_mod(stack_t **head, unsigned int counter);
 
 
 
