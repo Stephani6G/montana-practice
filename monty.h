@@ -65,6 +65,8 @@ void func_push(stack_t **head, unsigned int counter);
 void fu_stack(stack_t **head, unsigned int counter);
 void func_queue(stack_t **head, unsigned int counter);
 void add_queue(stack_t **head, int n);
+void func_pall(stack_t **head, unsigned int counter);
+void func_swap(stack_t **head, unsigned int counter);
 
 
 #endif /* monty_h */
